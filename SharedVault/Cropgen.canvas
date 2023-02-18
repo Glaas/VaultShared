@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"32e28ea220c15928","x":-629,"y":590,"width":400,"height":400,"type":"file","file":"Stimky.md"},
+		{"id":"1eb48147df666587","x":-1149,"y":-342,"width":161,"height":55,"type":"file","file":"Entity.md"},
+		{"id":"71cd0e806cf0dbee","x":-1284,"y":-179,"width":135,"height":62,"type":"text","text":"[[Living Entity]]"},
+		{"id":"6540c6f137a408a5","x":-969,"y":-179,"width":135,"height":62,"type":"text","text":"[[Dead Entity]]"},
+		{"id":"bc424a42155e825d","x":631,"y":-206,"width":1483,"height":1489,"color":"5","type":"group","label":"Traits"},
+		{"id":"777db3e083c7a536","x":672,"y":-149,"width":250,"height":95,"color":"3","type":"file","file":"Minuscule.md"},
+		{"id":"5ab8305ea78f48c4","x":922,"y":-149,"width":250,"height":95,"color":"3","type":"file","file":"Gigantic.md"},
+		{"id":"13fdc017703643f9","x":-135,"y":-209,"width":250,"height":60,"color":"2","type":"text","text":"Use"},
+		{"id":"5c28d8064c4663f5","x":-135,"y":-126,"width":250,"height":50,"color":"2","type":"text","text":"Store"},
+		{"id":"835e4569c182f8e1","x":-135,"y":-54,"width":250,"height":50,"color":"2","type":"text","text":"Equip"},
+		{"id":"8d0a3db6ac77d2eb","x":-135,"y":29,"width":250,"height":50,"color":"2","type":"text","text":"Plant"},
+		{"id":"51c841b6e5525353","x":1122,"y":329,"width":250,"height":138,"color":"4","type":"text","text":"#### **Heavy**\n*Negatively affects all [[Living Entity]] around it*"},
+		{"id":"cb7549188d41f2dd","x":1594,"y":422,"width":250,"height":138,"color":"4","type":"text","text":"#### **Screaming**\n*Negatively affects all [[Living Entity]] around it* (by constantly screaming)"},
+		{"id":"4aad6e198c62cc80","x":1594,"y":260,"width":250,"height":138,"color":"4","type":"text","text":"#### **Stinky**\n*Negatively affects all [[Living Entity]] around it*"},
+		{"id":"399ffa70a2128d98","x":797,"y":535,"width":250,"height":138,"color":"4","type":"text","text":"#### **Replicating**\n*Creates copies of itself*\n*Separate when in or outside of inventory*"},
+		{"id":"504aa761a5f6b23f","x":704,"y":121,"width":250,"height":139,"color":"6","type":"text","text":"#### **Sentience**\nConverts[[Dead Entity]] to [[Living Entity]]"},
+		{"id":"f289d6b71b16e9db","x":252,"y":-206,"width":311,"height":285,"color":"4","type":"group","label":"Properties"},
+		{"id":"82dcd50847977946","x":293,"y":-186,"width":250,"height":60,"type":"text","text":"Weight"},
+		{"id":"b2ecdfd1d264be40","x":293,"y":-117,"width":250,"height":52,"type":"text","text":"Size"},
+		{"id":"acf83db3c81bc122","x":1794,"y":-149,"width":250,"height":154,"color":"4","type":"text","text":"#### **Radioactive**\n*Glow in the dark, maybe negatively affects [[Living Entity]] around it?*"},
+		{"id":"07f0ee979f5589e8","x":-185,"y":236,"width":269,"height":165,"color":"3","type":"text","text":"## Title\n\n*content of my note*"},
+		{"id":"6fe558a871546bb5","x":1594,"y":884,"width":250,"height":138,"color":"#9183b9","type":"text","text":"#### **4th plane**\nComes from another plane of existence, and could go back at any moment."},
+		{"id":"b3cbbb74fc95a229","x":997,"y":884,"width":250,"height":138,"color":"#9183b9","type":"text","text":"#### **Time bomb**\nCould explode at ANY point, destroying things around it"},
+		{"id":"59bed1398c7b7c2b","x":1295,"y":765,"width":250,"height":60,"color":"#9183b9","type":"text","text":"Ephemereal"},
+		{"id":"84c354f3c7adc25a","x":1295,"y":884,"width":250,"height":138,"color":"#9183b9","type":"text","text":"#### **Shrinking**\nSlowly shrinks until going subatomic"}
+	],
+	"edges":[
+		{"id":"589b0c2cbf9c4450","fromNode":"1eb48147df666587","fromSide":"bottom","toNode":"71cd0e806cf0dbee","toSide":"top"},
+		{"id":"c36f6af711141aaa","fromNode":"1eb48147df666587","fromSide":"bottom","toNode":"6540c6f137a408a5","toSide":"top"},
+		{"id":"379d8e642c7e11e0","fromNode":"b3cbbb74fc95a229","fromSide":"top","toNode":"59bed1398c7b7c2b","toSide":"left"},
+		{"id":"5fbf4b6ea5965197","fromNode":"84c354f3c7adc25a","fromSide":"top","toNode":"59bed1398c7b7c2b","toSide":"bottom"},
+		{"id":"3e722928fad6ea7b","fromNode":"6fe558a871546bb5","fromSide":"top","toNode":"59bed1398c7b7c2b","toSide":"right"}
+	]
+}
